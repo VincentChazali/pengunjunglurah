@@ -18,6 +18,13 @@ class Tipe_model extends CI_Model
     $query = $this->db->get();
     return $query->result_array();
   }
+  public function getAll()
+  {
+    $this->db->from($this->table);
+    $query = $this->db->get();
+    return $query->result_array();
+  }
+
   //Get 4 rows in table
   public function get4()
   {

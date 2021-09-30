@@ -80,9 +80,6 @@
                                 <label>NIK</label>
                                 <input type="text" name="nik" id="nik" class="form-control" placeholder="NIK">
                             </div>
-                            <div class="col align-self-center">
-                                <button type="submit" value="SEND" id="submit" class="btn btn-light btn-radius btn-brd grd1">Kirim</button>
-                            </div>
                         </div>
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
@@ -91,11 +88,10 @@
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <label>Kategori</label>
-                                <select name="select_service" id="select_service" class="selectpicker form-control" data-style="btn-white">
-                                    <option value="12">Kategori Pengaduan</option>
-                                    <option value="Political Parties">Political Parties</option>
-                                    <option value="For Politician">For Politician</option>
-                                    <option value="Others">Others</option>
+                                <select name="tipe" id="select_service" class="selectpicker form-control" data-style="btn-white">
+                                    <?php foreach ($tipe as $r) : ?>
+                                        <option value="<?= $r['tp_id']; ?>"><?= $r['tp_ket']; ?></option>
+                                    <?php endforeach; ?>
                                 </select>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
