@@ -13,10 +13,11 @@
 <div id="event" class="section wb">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <?php
-                foreach ($Agenda as $ag) :
-                ?>
+
+            <?php
+            foreach ($Agenda as $ag) :
+            ?>
+                <div class="col-md-12">
                     <div class="participate-wrap">
 
 
@@ -30,39 +31,17 @@
                             <p><?= $ag['ag_ket']; ?></p>
                         </div>
                     </div><!-- end participate -->
-            </div><!-- end col -->
-        <?php
-                endforeach;
-        ?>
+                </div><!-- end col -->
+            <?php
+            endforeach;
+            ?>
 
         </div><!-- end row -->
         <div class="row">
             <div class="col-md-3 col-md-offset-5">
-                <ul class="pagination pagination-lg">
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                    </li>
-                    <?php
-                    if ($links == null) {
-                    ?>
-                        <li class="page-item"><a class="page-link">1</a></li>
-                    <?php
-                    } else {
-                    ?>
-                        <li class="page-item"><a class="page-link"><?php echo $links; ?></a></li>
-                    <?php
-                    }
-                    ?>
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </li>
-                </ul>
+
+                <?= $links; ?>
+
             </div>
         </div>
     </div><!-- end container -->

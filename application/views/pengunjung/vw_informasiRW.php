@@ -25,7 +25,14 @@
                             <div class="team-content">
                                 <h3 class="title"><?= $r['rw_nama']; ?></h3>
                                 <p class="post"><?= $r['alamat']; ?></p>
-                                <p class="post"><?= $r['periode']; ?></p>
+                                <p class="post">
+                                    <?php
+                                        $thnawal= date_format(date_create($r['tgl_jabat']),"Y");
+                                        $thnakhir= date_format(date_create($r['tgl_akhir']),"Y");
+                                        $periode=$thnakhir-$thnawal;
+                                        echo $periode, " Tahun";
+                                    ?>
+                                </p>
                                 <a href="<?= base_url(); ?>InformasiRW/RT/ <?= $r['rw_id']; ?>" class="btn btn-light btn-radius btn-brd grd1">List RT</a>
                             </div>
                         </div>
@@ -122,34 +129,11 @@
                 </div> -->
             </div>
         </div>
-        <div class="row">
-            <div class="col-md-3 col-md-offset-5">
-                <ul class="pagination pagination-lg">
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                    </li>
-                    <?php
-                    if ($links == null) {
-                    ?>
-                        <li class="page-item"><a class="page-link">1</a></li>
-                    <?php
-                    } else {
-                    ?>
-                        <li class="page-item"><a class="page-link"><?php echo $links; ?></a></li>
-                    <?php
-                    }
-                    ?>
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+        <div class="clearfix clear"></div>
+                            <div class="row">
+                                <div class="col-md-5 col-md-offset-7">
+                                    <?= $links; ?>
+                                </div>
+                            </div>
     </div>
 </div>

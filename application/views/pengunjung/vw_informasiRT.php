@@ -20,12 +20,12 @@
                     <div class="col-md-3 col-sm-5">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="<?= base_url('assets/images/penduduk/') . $r['rw_foto'] ?>">
+                                <img src="<?= base_url('assets/images/penduduk/') . $r['rt_foto'] ?>">
                             </div>
                             <div class="team-content">
                                 <h3 class="title"><?= $r['rt_nama']; ?></h3>
                                 <p class="post"><?= $r['alamat']; ?></p>
-                                <p class="post"><?= $r['periode']; ?></p>
+                                <p class="post"><?= $r['tgl_jabat']; ?></p>
                             </div>
                         </div>
                     </div>

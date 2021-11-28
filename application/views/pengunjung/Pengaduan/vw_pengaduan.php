@@ -18,13 +18,14 @@
                     <thead>
                         <tr style="font-weight: bold;">
                             <?php $i = 1; ?>
-                            <?php foreach ($pengaduan as $us) : ?>
                                 <td>No</td>
                                 <td>Judul</td>
                                 <td>Isi</td>
                                 <td>Tanggapan</td>
                         </tr>
                     </thead>
+                    
+                    <?php foreach ($pengaduan as $us) : ?>
                     <tbody>
 
                         <tr>

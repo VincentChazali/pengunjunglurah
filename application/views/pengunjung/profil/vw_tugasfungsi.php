@@ -30,9 +30,7 @@
                 <h4 style="text-align: justify; text-justify: inter-word; margin-left:5%;" >h)	Pengkoordinasian penerapan dan penegakan peraturan perundang – undangan.</h4>
                 <h4 style="text-align: justify; text-justify: inter-word; margin-left:5%;" >i)	Pelaksanaan kewenangan pemerintahan yang dilimpahkan oleh camat.</h4>
                 <h4 style="text-align: justify; text-justify: inter-word; margin-left:5%;" >j)	Pelaksanaan tugas – tugas lain yang diberikan oleh camat sesuai dengan tugas dan fungsinya.</h4>
-                </br>
             </div>
-
             <div class="col-sm-12 wow fadeInRight">
                 <h1 style="text-align: left;" >2.	Tupoksi Sekretaris Lurah</h1>
                 <h4 style="text-align: left; margin-left:2%" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Berdasarkan Peraturan Walikota Pekanbaru No. 120 Tahun 2016 Tentang “Kedudukan, Susunan Organisasi,
@@ -52,9 +50,7 @@
                 <h4 style="text-align: justify; text-justify: inter-word; margin-left:5%;" >k)	Pengevaluasian tugas pemerintah kelurahan berdasarkan informasi, data, laporan yang diterima untuk bahan penyempurnaan lebih lanjut.</h4>
                 <h4 style="text-align: justify; text-justify: inter-word; margin-left:5%;" >l)	Pelaporan pelaksaan tugas pemerintahan kelurahan kepada walikota dan camat melalui lurah secara lisan maupun tertulis berdasarkan hasil kerja sebagai bahan evaluasi bagi atasan.</h4>
                 <h4 style="text-align: justify; text-justify: inter-word; margin-left:5%;" >m)	Melaksanakan tugas – tugas lain yang diberikan oleh pimpinan sesuai dengan tugas dan fungsinya.</h4>
-                </br>
             </div>
-            
             <div class="col-sm-12 wow fadeInRight">
                 <h1 style="text-align: left;" >3.	TUPOKSI KASI Pemerintahan, Ketentraman dan Ketertiban</h1>
                 <h4 style="text-align: left; margin-left:2%" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Berdasarkan Peraturan Walikota Pekanbaru No. 120 Tahun 2016 Tentang “Kedudukan, Susunan Organisasi, 
@@ -82,9 +78,7 @@
                 <h4 style="text-align: justify; text-justify: inter-word; margin-left:10%;" >p)	Pemerikrasaan pekerjaan bawahan berdasarkan hasil kerja untuk mengetahui adanya kesalahan atau kekeliruan serta upaya penyempurnaannya.</h4>
                 <h4 style="text-align: justify; text-justify: inter-word; margin-left:10%;" >q)	Pelaporan pelaksaan tugas utusan pemerintahan kelurahan kepada walikota dan camat melalui lurah secara lisan maupun tertulis berdasarkan hasill kerja sebagai bahan evaluasi bagi atasan.</h4>
                 <h4 style="text-align: justify; text-justify: inter-word; margin-left:10%;" >r)	Pelaksanaan tugas – tugas lain yang diberikan oleh pimpinan sesuai dengan tugas dan  fungsinya.</h4>
-                </br>
             </div>
-            
             <div class="col-sm-12 wow fadeInRight">
                 <h1 style="text-align: left;" >4.	TUPOKSI KASI Kesejahteraan Sosial</h1>
                 <h4 style="text-align: left; margin-left:2%" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Berdasarkan Peraturan Walikota Pekanbaru No. 120 Tahun 2016 Tentang “Kedudukan, Susunan Organisasi,
@@ -103,9 +97,7 @@
                 <h4 style="text-align: justify; text-justify: inter-word; margin-left:10%;" >h)	Pemeriksaan pekerjaan bawahan dengan cara tertulis atau lisan agar dapat diproses lebih lanjut.</h4>
                 <h4 style="text-align: justify; text-justify: inter-word; margin-left:10%;" >i)	Pelaporan pelaksanaan tugas urusan kesejahteraan rakyat kepada walikota dan camat melalui lurah secara lisan maupun tertulis berdasarkan hasil kerja sebagai bahan evaluasi bagi atasan.</h4>
                 <h4 style="text-align: justify; text-justify: inter-word; margin-left:10%;" >j)	Pelaksanaan tugas – tugas lain yang diberikan oleh pimpinan sesuai dengan tugas dan fungsinya.</h4>
-                </br>
             </div>
-            
             <div class="col-sm-12 wow fadeInRight">
                 <h1 style="text-align: left;" >5.	TUPOKSI KASI Pembangungan dan Pemberdayaan</h1>
                 <h4 style="text-align: left; margin-left:2%" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Berdasarkan Peraturan Walikota Pekanbaru No. 120 Tahun 2016 Tentang “Kedudukan, Susunan Organisasi,

@@ -27,7 +27,7 @@ class Sarana_model extends CI_Model
     $this->db->select('s.*');
     $this->db->from('saprsarana s');
     $this->db->join('spr_jenis j', 's.sprjns_id = j.sprjns_id');
-    $this->db->where('j.sprjns_name', 'Sekolah');
+    $this->db->where('j.sprjns_name', 'Pendidikan');
     $this->db->order_by('spr_id');
     $query = $this->db->get();
     return $query->result_array();
@@ -38,7 +38,7 @@ class Sarana_model extends CI_Model
     $this->db->select('s.*');
     $this->db->from('saprsarana s');
     $this->db->join('spr_jenis j', 's.sprjns_id = j.sprjns_id');
-    $this->db->where('j.sprjns_name', 'Ibadah');
+    $this->db->where('j.sprjns_name', 'Tempat Ibadah');
     $this->db->order_by('spr_id');
     $query = $this->db->get();
     return $query->result_array();
@@ -71,7 +71,7 @@ class Sarana_model extends CI_Model
     $this->db->select('s.*');
     $this->db->from('saprsarana s');
     $this->db->join('spr_jenis j', 's.sprjns_id = j.sprjns_id');
-    $this->db->where('j.sprjns_name', 'Sekolah');
+    $this->db->where('j.sprjns_name', 'Pendidikan');
     $this->db->order_by('spr_id');
     $this->db->limit(4);
     $query = $this->db->get();
@@ -83,7 +83,7 @@ class Sarana_model extends CI_Model
     $this->db->select('s.*');
     $this->db->from('saprsarana s');
     $this->db->join('spr_jenis j', 's.sprjns_id = j.sprjns_id');
-    $this->db->where('j.sprjns_name', 'Ibadah');
+    $this->db->where('j.sprjns_name', 'Tempat Ibadah');
     $this->db->order_by('spr_id');
     $this->db->limit(4);
     $query = $this->db->get();

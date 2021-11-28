@@ -70,7 +70,7 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sarana dan Prasarana<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="<?= base_url('SaranaPrasarana/sekolah') ?>">Sekolah</a></li>
+                                <li><a class="dropdown-item" href="<?= base_url('SaranaPrasarana/sekolah') ?>">Pendidikan</a></li>
                                 <li><a class="dropdown-item" href="<?= base_url('SaranaPrasarana/kesehatan') ?>">Layanan Kesehatan</a></li>
                                 <li><a class="dropdown-item" href="<?= base_url('SaranaPrasarana/tempatibadah') ?>">Tempat Ibadah</a></li>
                             </ul>

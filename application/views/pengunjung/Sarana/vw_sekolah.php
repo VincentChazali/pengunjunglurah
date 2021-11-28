@@ -3,7 +3,7 @@
         <div class="row justify-content-center">
             <div class="col">
                 <div class="cta-content">
-                    <h2>Tempat Ibadah</h2>
+                    <h2>Pendidikan</h2>
                 </div>
             </div>
         </div>
@@ -23,6 +23,8 @@
                     </div>
                     <div class="team-info">
                         <h3><?= $sklh['spr_name']; ?></h3>
+                        <p><?= $sklh['spr_kondisi']; ?></p>
+                        <p><?= $sklh['spr_lokasi']; ?></p>
                     </div>
                     <!-- <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p> -->
 

@@ -22,6 +22,8 @@
                     </div>
                     <div class="team-info">
                         <h3><?= $ksht['spr_name']; ?> </h3>
+                        <p><?= $ksht['spr_kondisi']; ?></p>
+                        <p><?= $ksht['spr_lokasi']; ?></p>
                     </div>
                     <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
 

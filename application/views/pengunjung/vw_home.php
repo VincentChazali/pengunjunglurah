@@ -1,5 +1,5 @@
 <div id="main-banner" class="banner-one" data-scroll-index="0">
-    <div data-src="<?= base_url('assets/') ?>uploads/slide-1.jpg">
+    <div data-src="<?= base_url('assets/images/rumbai.jpeg') ?>">
         <div class="camera_caption">
             <div class="container">
                 <h1 class="wow fadeInUp animated">Sistem Informasi Kelurahan Umban Sari</h1>

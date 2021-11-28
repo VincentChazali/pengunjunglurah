@@ -8,53 +8,63 @@ class Pengaduan extends CI_Controller
         parent::__construct();
         $this->load->model('Pengaduan_model', 'pg');
         $this->load->model('Tipe_model', 'tp');
-        $this->load->model('Penduduk_model', 'pd');
+        $this->load->model('Penduduk_model','pd');
     }
     public function index()
     {
         $data['pengaduan'] = $this->pg->get();
-        $data['tipe'] = $this->tp->getAll();
-        $this->load->view('layout/header', $data);
-        $this->load->view('pengunjung/Pengaduan/vw_pengaduan', $data);
-        $this->load->view('layout/footer', $data);
+        $this->load->view('layout/header');
+        $this->load->view('pengunjung/Pengaduan/vw_pengaduan',$data);
+        $this->load->view('layout/footer');
     }
+
+    function checkNIK(){
+        $nik = $this->input->post('nik');
+        $cek = $this->db->get_where('penduduk',['pndk_id' =>$nik])->num_rows();
+        if($cek > 0) {
+            $data['nik'] = $nik;
+            $data['valid'] = true;
+            $this->load->view("layout/header");
+            $this->load->view('pengunjung/Pengaduan/vw_tambahpengaduan', $data);
+            $this->load->view("layout/footer");
+        }else{
+            $data['valid'] = false;
+        }
+    }
+
     function tambah()
     {
-        // $nik = $this->input->post('nik');
-        // $nik1 = $this->db->get_where('penduduk',['pndk_id' =>$nik])->row_array();
-
-        $data['tipe'] = $this->tp->getAll();
-
-        $this->form_validation->set_rules('nik', 'NIK', 'required', [
-            'required' => 'NIK Wajib Di isi'
-        ]);
+        $nik = $this->input->post('nik');
+        $data['valid'] = false;
+        $data['nik'] = $this->db->get_where('penduduk',['pndk_id' =>$nik])->num_rows();
+        $data['tipe'] = $this->tp->get();
         $this->form_validation->set_rules('gambar', 'Gambar', 'required', [
             'required' => 'Gambar Wajib Di isi'
         ]);
         $this->form_validation->set_rules('judul', 'Judul', 'required', [
             'required' => 'Judul Wajib Di isi'
         ]);
-        $this->form_validation->set_rules('message', 'Message', 'required', [
-            'required' => 'Message Wajib Di isi'
+        $this->form_validation->set_rules('keterangan', 'Keterangan', 'required', [
+            'required' => 'Keterangan Wajib Di isi'
         ]);
         if ($this->form_validation->run() == false) {
-            $this->load->view("layout/header", $data);
+            $this->load->view("layout/header");
             $this->load->view('pengunjung/Pengaduan/vw_tambahpengaduan', $data);
-            $this->load->view("layout/footer", $data);
+            $this->load->view("layout/footer");
         } else {
             $data = [
-                'pndk_nik' => $this->input->post('nik'),
+
+                'tp_id' => $this->input->post('tp'),
                 'pgdn_judul' => $this->input->post('judul'),
-                'pgdn_isi' => $this->input->post('message'),
-                'tp_id' => $this->input->post('tipe'),
-                'tanggapan' => '',
-                'usr_id' => '5',
+                'pgdn_isi' => $this->input->post('keterangan'),
+                //'pndk_nik' => $this->input->post('nik')
+                'pndk_nik' => 11111111
             ];
             $upload_image = $_FILES['gambar']['name'];
             if ($upload_image) {
                 $config['allowed_types'] = 'gif|jpg|png';
                 $config['max_size'] = '2048';
-                $config['upload_path'] = '../assets/images/pengaduan/';
+                $config['upload_path'] = './assets/images/pengaduan/';
                 $this->load->library('upload', $config);
                 if ($this->upload->do_upload('gambar')) {
                     $new_image = $this->upload->data('file_name');
@@ -65,8 +75,10 @@ class Pengaduan extends CI_Controller
             }
 
             $this->pg->insert($data, $upload_image);
-            $this->session->set_flashdata('message', '<div class = "alert alert-success" role="role">Pengaduan Berhasil Dikirimkan! </div>');
-            redirect('Pengaduan/tambah');
+            $this->session->set_flashdata('note', '<div class = "alert alert-success" role="role">Pengaduan Berhasil Dikirimkan! </div>');
+            redirect('Pengaduan');
         }
+        
     }
+
 }

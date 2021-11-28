@@ -41,7 +41,7 @@ class RT_model extends CI_Model
     $this->db->order_by('rt_id');
     $this->db->limit($num, $start);
     $query = $this->db->get();
-    return $query->result_array();
+    return $query->result();
   }
 
   function jumlah_data()
