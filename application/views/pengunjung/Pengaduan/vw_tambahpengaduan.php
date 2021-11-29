@@ -18,10 +18,7 @@
                 <?= $this->session->flashdata('note'); ?>
                     <form action="<?= base_url(); ?>Pengaduan/CheckNIK" method="post"> 
                         <div class="row">
-                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                <label>NIK</label>
-                                <input type="text" name="nik" id="nik" class="form-control" disabled value="<?=$nik;?>">
-                            </div>
+                            
                             <!-- <div class="col align-self-center">
                                 <button type="submit" id="submit" class="btn btn-light btn-radius btn-brd grd1">Kirim</button>
                             </div> -->
@@ -32,6 +29,11 @@
                     ?>
                 <form  class="row" action="<?= base_url(); ?>Pengaduan/tambah"  method="post">
                         <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <label>NIK</label>
+                                <input disabled type="text"  class="form-control"  value="<?=$nik ?>">
+                                <input  type="hidden" name="nik" class="form-control"  value="<?=$nik ?>">
+                            </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <label>Judul Pengaduan</label>
                                 <input type="text" name="judul" id="judul" class="form-control" placeholder="Judul Pengaduan">

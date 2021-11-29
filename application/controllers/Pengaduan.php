@@ -64,8 +64,7 @@ class Pengaduan extends CI_Controller
                 'tp_id' => $this->input->post('tp'),
                 'pgdn_judul' => $this->input->post('judul'),
                 'pgdn_isi' => $this->input->post('keterangan'),
-                //'pndk_nik' => $this->input->post('nik')
-                'pndk_nik' => 123,
+                'pndk_nik' => $this->input->post('nik')
             ];
             $upload_image = $_FILES['gambar']['name'];
             if ($upload_image) {
