@@ -20,7 +20,8 @@ class Pengaduan extends CI_Controller
 
     function checkNIK(){
         $nik = $this->input->post('nik');
-        $cek = $this->db->get_where('penduduk',['pndk_id' =>$nik])->num_rows();
+        $data['tipe'] = $this->tp->get();
+        $cek = $this->db->get_where('penduduk',['pndk_nik' =>$nik])->num_rows();
         if($cek > 0) {
             $data['nik'] = $nik;
             $data['valid'] = true;
@@ -29,14 +30,20 @@ class Pengaduan extends CI_Controller
             $this->load->view("layout/footer");
         }else{
             $data['valid'] = false;
+            redirect('Pengaduan/cek');
         }
+    }
+    function cek(){
+        $this->load->view("layout/header");
+        $this->load->view('pengunjung/Pengaduan/vw_tambahpengaduan1');
+        $this->load->view("layout/footer");
     }
 
     function tambah()
     {
-        $nik = $this->input->post('nik');
+        // $nik = $this->input->post('nik');
         $data['valid'] = false;
-        $data['nik'] = $this->db->get_where('penduduk',['pndk_id' =>$nik])->num_rows();
+        //$data['nik'] = $this->db->get_where('penduduk',['pndk_id' =>$nik])->num_rows();
         $data['tipe'] = $this->tp->get();
         $this->form_validation->set_rules('gambar', 'Gambar', 'required', [
             'required' => 'Gambar Wajib Di isi'
@@ -58,7 +65,7 @@ class Pengaduan extends CI_Controller
                 'pgdn_judul' => $this->input->post('judul'),
                 'pgdn_isi' => $this->input->post('keterangan'),
                 //'pndk_nik' => $this->input->post('nik')
-                'pndk_nik' => 11111111
+                'pndk_nik' => 123,
             ];
             $upload_image = $_FILES['gambar']['name'];
             if ($upload_image) {

@@ -74,17 +74,17 @@
         <div class="col-md-12">
             <div class="contact_form">
                 <div id="message"></div>
-                <form id="contactform" class="row" action="<?= base_url('Pengaduan/ceknik') ?>" name="contactform" method="post">
-                    <fieldset class="row-fluid">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                            <label>NIK</label>
-                            <input type="text" name="nik" id="nik" class="form-control" placeholder="NIK">
-                        
-                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
-                            <button type="submit" value="SEND" id="submit" class="btn btn-light btn-radius btn-brd grd1">Kirim</button>
+                <form action="<?= base_url(); ?>Pengaduan/CheckNIK" method="post"> 
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <label>NIK</label>
+                                <input type="text" name="nik" id="nik" class="form-control" placeholder="NIK">
+                            </div>
+                            <div class="col align-self-center">
+                                <button type="submit" id="submit" class="btn btn-light btn-radius btn-brd grd1">Kirim</button>
+                            </div>
                         </div>
-                    </fieldset>
-                </form>
+                    </form>
             </div>
         </div><!-- end col -->
     </div><!-- end row -->

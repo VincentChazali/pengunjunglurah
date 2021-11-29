@@ -33,7 +33,7 @@
                                         echo $periode, " Tahun";
                                     ?>
                                 </p>
-                                <a href="<?= base_url(); ?>InformasiRW/RT/ <?= $r['rw_id']; ?>" class="btn btn-light btn-radius btn-brd grd1">List RT</a>
+                                <a href="<?= base_url(); ?>InformasiRW/RT/<?= $r['rw_id']; ?>" class="btn btn-light btn-radius btn-brd grd1">List RT</a>
                             </div>
                         </div>
                     </div>

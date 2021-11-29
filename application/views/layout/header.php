@@ -79,7 +79,7 @@
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pengaduan<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="<?= base_url('Pengaduan') ?>">List Pengaduan</a></li>
-                                <li><a class="dropdown-item" href="<?= base_url('Pengaduan/tambah') ?>">Tambah pengaduan</a></li>
+                                <li><a class="dropdown-item" href="<?= base_url('Pengaduan/cek') ?>">Tambah pengaduan</a></li>
                             </ul>
                         <li>
                         <!-- <li class="scroll"><a href="<?= base_url('Polling') ?>">Polling</a></li> -->
