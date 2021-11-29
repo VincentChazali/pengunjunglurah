@@ -20,7 +20,7 @@
                     <div class="col-md-3 col-sm-5">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="<?= base_url('assets/images/penduduk/') . $r['rw_foto'] ?>">
+                                <img src="<?= base_url('assets/images/rw/') . $r['rw_foto']; ?>" width="100" height="100">
                             </div>
                             <div class="team-content">
                                 <h3 class="title"><?= $r['rw_nama']; ?></h3>
@@ -35,6 +35,7 @@
                                 </p>
                                 <a href="<?= base_url(); ?>InformasiRW/RT/<?= $r['rw_id']; ?>" class="btn btn-light btn-radius btn-brd grd1">List RT</a>
                             </div>
+                            <br>
                         </div>
                     </div>
                 <?php

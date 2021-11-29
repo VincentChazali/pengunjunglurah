@@ -20,7 +20,7 @@
                     <div class="col-md-3 col-sm-5">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="<?= base_url('assets/images/penduduk/') . $r['rt_foto'] ?>">
+                                <img src="<?= base_url('assets/images/rt/') . $r['rt_foto'] ?>" width="100" height="100">
                             </div>
                             <div class="team-content">
                                 <h3 class="title"><?= $r['rt_nama']; ?></h3>
