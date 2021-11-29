@@ -15,24 +15,15 @@
     <div class="row">
         <div class="col-md-12">
             <div class="contact_form">
-                <?= $this->session->flashdata('note'); ?>
-                    <form action="<?= base_url(); ?>Pengaduan/CheckNIK" method="post"> 
-                        <div class="row">
-                            
-                            <!-- <div class="col align-self-center">
-                                <button type="submit" id="submit" class="btn btn-light btn-radius btn-brd grd1">Kirim</button>
-                            </div> -->
-                        </div>
-                    </form>
                     <?php
                         if($valid == true){
                     ?>
-                <form  class="row" action="<?= base_url(); ?>Pengaduan/tambah"  method="post">
+                <form  class="row" action="<?= base_url(); ?>Pengaduan/tambah"  method="post" enctype="multipart/form-data">
                         <div class="row">
                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <label>NIK</label>
-                                <input disabled type="text"  class="form-control"  value="<?=$nik ?>">
-                                <input  type="hidden" name="nik" class="form-control"  value="<?=$nik ?>">
+                                <input disabled type="text" name="nik"  class="form-control"  value="<?=$nik ?>">
+                                <input type="hidden" name="nik"  class="form-control"  value="<?=$nik ?>">
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <label>Judul Pengaduan</label>
@@ -54,7 +45,7 @@
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                 <label>Gambar Pengaduan</label>
-                                <input type="file" name="gambar" id="gambar" class="form-control" placeholder="Gambar Pengaduan">
+                                <input type="file" name="gambar" id="gambar" class="custom-file-input" placeholder="Gambar Pengaduan">
                                 
                                 <?= form_error('gambar', '<small class="text-danger pl-3">', '</small>'); ?>
                             </div>
@@ -65,7 +56,7 @@
                                 <?= form_error('keterangan', '<small class="text-danger pl-3">', '</small>'); ?>
                             </div>
                             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 text-center">
-                                <button id="submit" type="submit" class="btn btn-light btn-radius btn-brd grd1">Kirim </button>
+                                <button id="submit" type="submit" class="btn btn-light btn-radius btn-brd grd1">Kirim</button>
                             </div>
                         </div>
                 </form>

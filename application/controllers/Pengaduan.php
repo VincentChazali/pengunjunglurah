@@ -8,32 +8,38 @@ class Pengaduan extends CI_Controller
         parent::__construct();
         $this->load->model('Pengaduan_model', 'pg');
         $this->load->model('Tipe_model', 'tp');
-        $this->load->model('Penduduk_model','pd');
+        $this->load->model('Penduduk_model', 'pd');
     }
     public function index()
     {
         $data['pengaduan'] = $this->pg->get();
         $this->load->view('layout/header');
-        $this->load->view('pengunjung/Pengaduan/vw_pengaduan',$data);
+        $this->load->view('pengunjung/Pengaduan/vw_pengaduan', $data);
         $this->load->view('layout/footer');
     }
 
-    function checkNIK(){
+    function checkNIK()
+    {
         $nik = $this->input->post('nik');
         $data['tipe'] = $this->tp->get();
-        $cek = $this->db->get_where('penduduk',['pndk_nik' =>$nik])->num_rows();
-        if($cek > 0) {
+        $cek = $this->db->get_where('penduduk', ['pndk_nik' => $nik])->num_rows();
+        if ($cek > 0) {
             $data['nik'] = $nik;
             $data['valid'] = true;
             $this->load->view("layout/header");
             $this->load->view('pengunjung/Pengaduan/vw_tambahpengaduan', $data);
             $this->load->view("layout/footer");
-        }else{
+        } else {
             $data['valid'] = false;
-            redirect('Pengaduan/cek');
+            $this->session->set_flashdata('msg', '<div class = "alert alert-danger" role="role">NIK Tidak Ditemukan!</div>');
+            $this->load->view("layout/header");
+            $this->load->view('pengunjung/Pengaduan/vw_tambahpengaduan1');
+            $this->load->view("layout/footer");
         }
     }
-    function cek(){
+    function cek()
+    {
+        $this->session->set_flashdata('msg', '<div class = "alert alert-success" role="role">Silahkan Masukkan NIK Anda!</div>');
         $this->load->view("layout/header");
         $this->load->view('pengunjung/Pengaduan/vw_tambahpengaduan1');
         $this->load->view("layout/footer");
@@ -45,9 +51,6 @@ class Pengaduan extends CI_Controller
         $data['valid'] = false;
         //$data['nik'] = $this->db->get_where('penduduk',['pndk_id' =>$nik])->num_rows();
         $data['tipe'] = $this->tp->get();
-        $this->form_validation->set_rules('gambar', 'Gambar', 'required', [
-            'required' => 'Gambar Wajib Di isi'
-        ]);
         $this->form_validation->set_rules('judul', 'Judul', 'required', [
             'required' => 'Judul Wajib Di isi'
         ]);
@@ -81,10 +84,8 @@ class Pengaduan extends CI_Controller
             }
 
             $this->pg->insert($data, $upload_image);
-            $this->session->set_flashdata('note', '<div class = "alert alert-success" role="role">Pengaduan Berhasil Dikirimkan! </div>');
+            $this->session->set_flashdata('notes', '<div class = "alert alert-success" role="role">Pengaduan Berhasil Dikirimkan! </div>');
             redirect('Pengaduan');
         }
-        
     }
-
 }

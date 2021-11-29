@@ -73,7 +73,7 @@
     <div class="row">
         <div class="col-md-12">
             <div class="contact_form">
-                <div id="message"></div>
+                <?= $this->session->flashdata('msg'); ?>
                 <form action="<?= base_url(); ?>Pengaduan/CheckNIK" method="post"> 
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
