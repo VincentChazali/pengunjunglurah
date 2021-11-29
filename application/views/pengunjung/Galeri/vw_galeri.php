@@ -1,4 +1,4 @@
-<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/rumbai.jpeg)">
+<section class="section section-bg" id="call-to-action" style="background-image: url(assets/img/rumbai.jpeg)">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col">
@@ -30,9 +30,9 @@
             ?>
                 <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
                     <div class="gallery-single fix">
-                        <img src="<?= base_url('assets/images/galeri/') . $gal['gal_gambar'] ?>" class="img-responsive" alt="Image">
+                        <img src="<?= base_url('assets/img/galeri/') . $gal['gal_gambar'] ?>" class="img-responsive" alt="Image">
                         <div class="img-overlay">
-                            <a href="<?= base_url('assets/images/galeri/') . $gal['gal_gambar'] ?>" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius">
+                            <a href="<?= base_url('assets/img/galeri/') . $gal['gal_gambar'] ?>" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius">
                                 <h3><?= $gal['hal_title']; ?></h3>
                                 <span><?= $gal['gal_date']; ?></span>
                                 <p><?= $gal['gal_ket']; ?></p>

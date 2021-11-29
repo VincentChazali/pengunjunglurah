@@ -1,4 +1,4 @@
-<section class="section section-bg" id="call-to-action" style="background-image: url(../assets/images/rumbai.jpeg)">
+<section class="section section-bg" id="call-to-action" style="background-image: url(../assets/img/rumbai.jpeg)">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col">

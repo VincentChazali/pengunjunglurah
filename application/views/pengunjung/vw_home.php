@@ -1,5 +1,5 @@
 <div id="main-banner" class="banner-one" data-scroll-index="0">
-    <div data-src="<?= base_url('assets/images/rumbai.jpeg') ?>">
+    <div data-src="<?= base_url('assets/img/rumbai.jpeg') ?>">
         <div class="camera_caption">
             <div class="container">
                 <h1 class="wow fadeInUp animated">Sistem Informasi Kelurahan Umban Sari</h1>
@@ -25,7 +25,7 @@
 
             <div class="col-md-6">
                 <div class="post-media wow fadeIn">
-                    <img src="<?= base_url('assets/') ?>images/rumbai.jpeg" class=" img-responsive img-rounded">
+                    <img src="<?= base_url('assets/') ?>img/rumbai.jpeg" class=" img-responsive img-rounded">
                     <a href="https://www.youtube.com/watch?v=HL7xgyUhFPo" data-rel="prettyPhoto[gal]" class="playbutton"><i class="flaticon-play-button"></i></a>
                 </div><!-- end media -->
             </div><!-- end col -->

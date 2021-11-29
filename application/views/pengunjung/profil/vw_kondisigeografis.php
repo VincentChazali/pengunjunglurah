@@ -1,4 +1,4 @@
-<section class="section section-bg" id="call-to-action" style="background-image: url(../assets/images/rumbai.jpeg)">
+<section class="section section-bg" id="call-to-action" style="background-image: url(../assets/img/rumbai.jpeg)">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col">
@@ -14,7 +14,7 @@
     <div  class="container">
         <div class="">
                 <div  class="">
-                    <img style="margin-left: 15% ;" src="<?= base_url('assets/') ?>images/Picture2.jpg" class="img-responsive" alt="Image">
+                    <img style="margin-left: 15% ;" src="<?= base_url('assets/') ?>img/Picture2.jpg" class="img-responsive" alt="Image">
                     
                 </div>
             </div>

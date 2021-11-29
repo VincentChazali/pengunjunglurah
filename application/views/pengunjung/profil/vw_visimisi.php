@@ -1,4 +1,4 @@
-<section class="section section-bg" id="call-to-action" style="background-image: url(../assets/images/rumbai.jpeg)">
+<section class="section section-bg" id="call-to-action" style="background-image: url(../assets/img/rumbai.jpeg)">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col">
@@ -14,7 +14,7 @@
     <div class="container">
 
         <div class="col-sm-4">
-            <img style="width: 50%; Margin-left:134%" class="img-responsive " src="<?= base_url('assets/images/Picture1.png') ?>">
+            <img style="width: 50%; Margin-left:134%" class="img-responsive " src="<?= base_url('assets/img/Picture1.png') ?>">
         </div>
         <div class="row">
             <div class="col-sm-12 wow fadeInRight">

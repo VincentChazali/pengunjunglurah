@@ -4,7 +4,7 @@
         foreach ($berita as $brt) :
         ?>
             <div class="col-sm-4">
-                <img class="img-responsive " src="<?= base_url('assets/images/berita/') . $brt['brt_gambar'] ?>">
+                <img class="img-responsive " src="<?= base_url('assets/img/berita/') . $brt['brt_gambar'] ?>">
             </div>
             <div class="col-sm-12 wow fadeInRight">
                 <h3 class="column-title"><?= $brt['brt_judul']; ?></h3>

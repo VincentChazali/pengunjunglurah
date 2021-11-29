@@ -1,4 +1,4 @@
-<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/rumbai.jpeg)">
+<section class="section section-bg" id="call-to-action" style="background-image: url(assets/img/rumbai.jpeg)">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col">
@@ -26,7 +26,7 @@
                             ?>
                                 <div class="kode_news_list">
                                     <figure>
-                                        <img src="<?= base_url('assets/images/sarana/') . $sklh['spr_gambar'] ?>" alt="News List Image">
+                                        <img src="<?= base_url('assets/img/sarana/') . $sklh['spr_gambar'] ?>" alt="News List Image">
                                     </figure>
                                     <div class="kode_news_list_des">
                                         <span><?= $srn['jenis']; ?></span>

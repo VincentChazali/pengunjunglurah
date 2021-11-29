@@ -73,7 +73,7 @@ class Pengaduan extends CI_Controller
             if ($upload_image) {
                 $config['allowed_types'] = 'gif|jpg|png';
                 $config['max_size'] = '2048';
-                $config['upload_path'] = './assets/images/pengaduan/';
+                $config['upload_path'] = './assets/img/pengaduan/';
                 $this->load->library('upload', $config);
                 if ($this->upload->do_upload('gambar')) {
                     $new_image = $this->upload->data('file_name');

@@ -1,4 +1,4 @@
-<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/rumbai.jpeg)">
+<section class="section section-bg" id="call-to-action" style="background-image: url(assets/img/rumbai.jpeg)">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col">
@@ -20,7 +20,7 @@
                     <div class="col-md-3 col-sm-5">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="<?= base_url('assets/images/rw/') . $r['rw_foto']; ?>" width="100" height="100">
+                                <img src="<?= base_url('assets/img/rw/') . $r['rw_foto']; ?>" width="100" height="100">
                             </div>
                             <div class="team-content">
                                 <h3 class="title"><?= $r['rw_nama']; ?></h3>

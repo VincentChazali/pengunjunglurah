@@ -1,4 +1,4 @@
-<section class="section section-bg" id="call-to-action" style="background-image: url(assets/images/rumbai.jpeg)">
+<section class="section section-bg" id="call-to-action" style="background-image: url(assets/img/rumbai.jpeg)">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col">
@@ -25,7 +25,7 @@
                             ?>
                                 <div class="kode_news_list">
                                     <figure>
-                                        <img src="<?= base_url('assets/images/berita/') . $brt['brt_gambar'] ?>" alt="image">
+                                        <img src="<?= base_url('assets/img/berita/') . $brt['brt_gambar'] ?>" alt="image">
                                     </figure>
                                     <div style="margin-top: -23%" class="kode_news_list_des">
                                         <h6> <a href="<?= base_url('Berita/detailberita/') . $brt['brt_id'] ?>"> <?= $brt['brt_judul']; ?> </a> </h6>

@@ -12,8 +12,8 @@
     <title>Lurah Rumbai</title>
 
     <!-- Site Icons -->
-    <link rel="shortcut icon" href="<?= base_url('assets/') ?>images/icon.png" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="<?= base_url('assets/') ?>images/icon.png">
+    <link rel="shortcut icon" href="<?= base_url('assets/') ?>img/icon.png" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="<?= base_url('assets/') ?>img/icon.png">
 
 
     <!-- Bootstrap CSS -->
@@ -48,7 +48,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="<?= base_url('Home') ?>"><img src="<?= base_url('assets/') ?>images/logos/logo.png" width="210px" ; height="46px" ; alt="image"></a>
+                    <a class="navbar-brand" href="<?= base_url('Home') ?>"><img src="<?= base_url('assets/') ?>img/logos/logo.png" width="210px" ; height="46px" ; alt="image"></a>
                 </div>
 
                 <div id="navbar" class="navbar-collapse collapse">

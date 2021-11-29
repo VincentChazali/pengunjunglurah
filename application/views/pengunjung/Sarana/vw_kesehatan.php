@@ -1,4 +1,4 @@
-<section class="section section-bg" id="call-to-action" style="background-image: url(../assets/images/rumbai.jpeg)">
+<section class="section section-bg" id="call-to-action" style="background-image: url(../assets/img/rumbai.jpeg)">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col">
@@ -18,7 +18,7 @@
             <div class="col-sm-4 col-xs-6 team-column col-md-3">
                 <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
                     <div class="team-img">
-                        <img class="img-responsive" src="<?= base_url('assets/images/sarana/') . $ksht['spr_gambar'] ?>" alt="">
+                        <img class="img-responsive" src="<?= base_url('assets/img/sarana/') . $ksht['spr_gambar'] ?>" alt="">
                     </div>
                     <div class="team-info">
                         <h3><?= $ksht['spr_name']; ?> </h3>
