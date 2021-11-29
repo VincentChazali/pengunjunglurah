@@ -29,11 +29,11 @@
                     <div class="col-md-8">
                         <div class="kode_team_img_des">
                             <h4>HJ Asparida.S.Sos</h4>
-                            <p>2001 Graduate Columbia University in the City of New York, Department of Political Science. Author of numerous articles on Economics and Public Management.
-                                <span>Alberto is a wonderful leader!</span>
+                            <p>
+                                <span></span>
                             </p>
                             <blockquote>
-                                <p>Thank you for all your help and assistance over the years. I would have no hesitation in voting for you!</p>
+                               ]
                             </blockquote>
 
                         </div>
