@@ -17,9 +17,7 @@
                 <div class="message-box">
                     <h4>Siapa Kami</h4>
                     <h2>Selamat datang</h2>
-                    <blockquote class="lead">Quisque eget nisl id nulla sagittis auctor quis id. Aliquam quis vehicula enim, non aliquam risus. Sed a tellus quis mi rhoncus dignissim.</blockquote>
-
-                    <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo. </p>
+                    
                 </div><!-- end messagebox -->
             </div><!-- end col -->
 
@@ -66,7 +64,7 @@
                                 </div>
                                 <div class="feature-content">
                                     <h5>Daftar RT/RW</h5>
-                                    <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                                    <p>RW dan RT yang terdapat di kelurahan Umban Sari</p>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +77,7 @@
                                 </div>
                                 <div class="feature-content">
                                     <h5>Berita</h5>
-                                    <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                                    <p>Berita terbaru yang ada di Kelurahan Umban Sari untuk mempermudah masyarakat apa saja berita terbaru yang ada di Kelurahan umban Sari</p>
                                 </div>
                             </div>
                         </div>
@@ -92,7 +90,7 @@
                                 </div>
                                 <div class="feature-content">
                                     <h5>Galeri</h5>
-                                    <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                                    <p>Foto - foto Kegiatan yang ada di Kelurahan Umban Sari</p>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +103,7 @@
                                 </div>
                                 <div class="feature-content">
                                     <h5>Sarana dan Prasarana</h5>
-                                    <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                                    <p>Daftar Sarana dan Prasarana yang ada di Kelurahan Umban Sari untuk mempermudah masyarakat untuk mendapatkan informasi mengenai Sarana dan Prasarana yang ada di Kelurahan Umban Sari</p>
                                 </div>
                             </div>
                         </div>
@@ -118,7 +116,7 @@
                                 </div>
                                 <div class="feature-content">
                                     <h5>Pengaduan</h5>
-                                    <p>I design and develop services for customers of all sizes, specializing in creating stylish, modern websites.</p>
+                                    <p>Daftar dan Penambahan pengaduan yang dapat di lihat dan di adukan oleh masyarakat terkait masalah yang terjadi di Kelurahan Umban Sari</p>
                                 </div>
                             </div>
                         </div>
