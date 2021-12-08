@@ -56,7 +56,7 @@
                     <div class="col-md-3 col-sm-5">
                         <div class="our-team">
                             <div class="pic">
-                                <img style="width:100%; height:100%;" src="<?= base_url('assets/') ?>img/team/02.jpg">
+                                <img style="width:100%; height:100%;" src="<?= base_url('assets/') ?>img/kasipemerintahan.png">
                             </div>
                             <div class="team-content">
                                 <h3 class="title">Fulidodo Zendrato</h3>
@@ -78,7 +78,7 @@
                     <div class="col-md-3 col-sm-5">
                         <div class="our-team">
                             <div class="pic">
-                                <img style="width:100%; height:100%;" src="<?= base_url('assets/') ?>img/team/04.jpg">
+                                <img style="width:100%; height:100%;" src="<?= base_url('assets/') ?>img/kasipmk.png">
                             </div>
                             <div class="team-content">
                                 <h3 class="title">Nina Nelmayenti</h3>

@@ -24,8 +24,16 @@
                             </div>
                             <div class="team-content">
                                 <h3 class="title"><?= $r['rt_nama']; ?></h3>
+                                <p class="post">RT&nbsp;<?= $r['no_rt']; ?></p>
                                 <p class="post"><?= $r['alamat']; ?></p>
-                                <p class="post"><?= $r['tgl_jabat']; ?></p>
+                                <p class="post">
+                                <?php
+                                        $thnawal= date_format(date_create($r['tgl_jabat']),"Y");
+                                        $thnakhir= date_format(date_create($r['tgl_akhir']),"Y");
+                                        $periode=$thnakhir-$thnawal;
+                                        echo $thnawal, " - ", $thnakhir;
+                                    ?>
+                                </p>
                             </div>
                         </div>
                     </div>

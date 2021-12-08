@@ -24,13 +24,14 @@
                             </div>
                             <div class="team-content">
                                 <h3 class="title"><?= $r['rw_nama']; ?></h3>
+                                <p class="post">RW&nbsp;<?= $r['no_rw']; ?></p>
                                 <p class="post"><?= $r['alamat']; ?></p>
                                 <p class="post">
                                     <?php
                                         $thnawal= date_format(date_create($r['tgl_jabat']),"Y");
                                         $thnakhir= date_format(date_create($r['tgl_akhir']),"Y");
                                         $periode=$thnakhir-$thnawal;
-                                        echo $periode, " Tahun";
+                                        echo $thnawal, " - ", $thnakhir;
                                     ?>
                                 </p>
                                 <a href="<?= base_url(); ?>InformasiRW/RT/<?= $r['rw_id']; ?>" class="btn btn-light btn-radius btn-brd grd1">List RT</a>
