@@ -12,12 +12,12 @@
 </br>
 <div class="container">
                 <?= $this->session->flashdata('notes'); ?>
-    <div class="card shadow mb-4">
+    <div  class="card shadow mb-4">
         <div class="card-body">
             <div class="table-responsive">
                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                     <thead>
-                        <tr style="font-weight: bold;">
+                        <tr style="font-weight: bold;background-color: gray; color:white;">
                             <?php $i = 1; ?>
                                 <td>No</td>
                                 <td>Judul</td>
@@ -29,7 +29,7 @@
                     <?php foreach ($pengaduan as $us) : ?>
                     <tbody>
 
-                        <tr>
+                        <tr style="color: black; ">
                             <td><?= $i ?></td>
                             <td><?= $us['pgdn_judul'] ?></td>
                             <td><?= $us['pgdn_isi'] ?></td>

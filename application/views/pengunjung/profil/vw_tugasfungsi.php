@@ -15,8 +15,8 @@
     <div class="row">
             <div class="col-sm-12 wow fadeInRight">
                 <h1 style="text-align: left;" >1. Tupoksi Lurah</h1>
-                <h4 style="text-align: left; margin-left:2%" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Berdasarkan Peraturan Walikota Pekanbaru No. 120 Tahun 2016 Tentang “Kedudukan, Susunan Organisasi, 
-                Tugas dan Fungsi Serta Tata Kerja Kecamatan Tipe A Dilingkungan Pemerintah Kota Pekanbaru”.</h4>
+                <h4 style="text-align: left; margin-left:2%" >Berdasarkan Peraturan Walikota Pekanbaru No. 120 Tahun 2016 Tentang “Kedudukan, Susunan Organisasi, 
+                Tugas dan Fungsi Serta Tata Kerja  Kecamatan Tipe A Dilingkungan Pemerintah Kota Pekanbaru”.</h4>
                 <h4 style="text-align: left; margin-left:2%" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lurah mempunyai rincian tugas sesuai pasal 15 :</h4>
                 <h4 style="text-align: left; margin-left:2%" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lurah mempunyai tugas membantu camat dalam menyelenggarakan tugas umum pemerintahan dan tugas pembantuan lainnya.</h4>
                 <h4 style="text-align: left; margin-left:2%" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lurah dalam melaksanakan tugas sebagaimana dimaksud pada ayat (1) menyelenggarakan fungsi :</h4>
@@ -33,7 +33,7 @@
             </div>
             <div class="col-sm-12 wow fadeInRight">
                 <h1 style="text-align: left;" >2.	Tupoksi Sekretaris Lurah</h1>
-                <h4 style="text-align: left; margin-left:2%" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Berdasarkan Peraturan Walikota Pekanbaru No. 120 Tahun 2016 Tentang “Kedudukan, Susunan Organisasi,
+                <h4 style="text-align: left; margin-left:2%" >Berdasarkan Peraturan Walikota Pekanbaru No. 120 Tahun 2016 Tentang “Kedudukan, Susunan Organisasi,
                  Tugas dan Fungsi Serta Tata Kerja Kecamatan Tipe A Dilingkungan Pemerintah Kota Pekanbaru”.</h4>
                 
                 <h4 style="text-align: left; margin-left:2%" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sekretaris Lurah dalam melaksanakan tugas sebagaimana dimaksud pada ayat (1) pasal 16 menyelenggarakan fungsi :</h4>
@@ -53,7 +53,7 @@
             </div>
             <div class="col-sm-12 wow fadeInRight">
                 <h1 style="text-align: left;" >3.	TUPOKSI KASI Pemerintahan, Ketentraman dan Ketertiban</h1>
-                <h4 style="text-align: left; margin-left:2%" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Berdasarkan Peraturan Walikota Pekanbaru No. 120 Tahun 2016 Tentang “Kedudukan, Susunan Organisasi, 
+                <h4 style="text-align: left; margin-left:2%" >Berdasarkan Peraturan Walikota Pekanbaru No. 120 Tahun 2016 Tentang “Kedudukan, Susunan Organisasi, 
                 Tugas dan Fungsi Serta Tata Kerja Kecamatan Tipe A Dilingkungan Pemerintah Kota Pekanbaru”.</h4>
                 
                 <h4 style="text-align: justify; text-justify: inter-word; margin-left:5%" >1)	Kepala  seksi pemerintahan ketenraman dan ketertiban mempunyai tugas merencanakan 
@@ -81,7 +81,7 @@
             </div>
             <div class="col-sm-12 wow fadeInRight">
                 <h1 style="text-align: left;" >4.	TUPOKSI KASI Kesejahteraan Sosial</h1>
-                <h4 style="text-align: left; margin-left:2%" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Berdasarkan Peraturan Walikota Pekanbaru No. 120 Tahun 2016 Tentang “Kedudukan, Susunan Organisasi,
+                <h4 style="text-align: left; margin-left:2%" >Berdasarkan Peraturan Walikota Pekanbaru No. 120 Tahun 2016 Tentang “Kedudukan, Susunan Organisasi,
                  Tugas dan Fungsi Serta Tata Kerja Kecamatan Tipe A Dilingkungan Pemerintah Kota Pekanbaru”.</h4>
                  <h4 style="text-align: justify; text-justify: inter-word; margin-left:5%" >1)	Kepala Seksi Kesejahteraan Sosial mempunyai rincian tugas merencakan dan melaksanakan program 
                  kerja Seksi Kesejahteraan Sosial berdasarkan ketentuan pertaruan perundang – undangan.</h4>
@@ -100,7 +100,7 @@
             </div>
             <div class="col-sm-12 wow fadeInRight">
                 <h1 style="text-align: left;" >5.	TUPOKSI KASI Pembangungan dan Pemberdayaan</h1>
-                <h4 style="text-align: left; margin-left:2%" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Berdasarkan Peraturan Walikota Pekanbaru No. 120 Tahun 2016 Tentang “Kedudukan, Susunan Organisasi,
+                <h4 style="text-align: left; margin-left:2%" >Berdasarkan Peraturan Walikota Pekanbaru No. 120 Tahun 2016 Tentang “Kedudukan, Susunan Organisasi,
                  Tugas dan Fungsi Serta Tata Kerja Kecamatan Tipe A Dilingkungan Pemerintah Kota Pekanbaru”.</h4>
                  <h4 style="text-align: left; margin-left:2%" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Kepala seksi pembangunan mempunyai rincian tugas :</h4>
                  <h4 style="text-align: justify; text-justify: inter-word; margin-left:5%" >1)	Kepala seksi pembangunan dan pemberdayaan masyarakat mempunyai rincian tugas merencanakan dan melaksanakan

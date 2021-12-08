@@ -80,7 +80,7 @@
                                 <label>NIK</label>
                                 <input type="text" name="nik" id="nik" class="form-control" placeholder="NIK">
                             </div>
-                            <div class="col align-self-center">
+                            <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12" style="margin-top: 3.5%;">
                                 <button type="submit" id="submit" class="btn btn-light btn-radius btn-brd grd1">Kirim</button>
                             </div>
                         </div>

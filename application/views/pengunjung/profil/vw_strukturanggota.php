@@ -21,7 +21,7 @@
                     <div class="col-md-4">
                         <div class="kode_team_img">
                             <figure>
-                                <img src="<?= base_url('assets/') ?>img/team/01.jpg" class="img-responsive" alt="Image Here">
+                                <img style="width:100%; height:100%;" src="<?= base_url('assets/') ?>img/team/01.jpg" class="img-responsive" alt="Image Here">
                             </figure>
                         </div>
                     </div>
@@ -42,10 +42,10 @@
                 <div class="row">
                     <h1>Anggota Lurah</h1>
                     <br>
-                    <div class="col-md-3 col-sm-5">
+                    <div class="col-md-3 col-sm-5" >
                         <div class="our-team">
-                            <div class="pic">
-                                <img src="<?= base_url('assets/') ?>img/team/01.jpg">
+                            <div class="pic" >
+                                <img style="width:100%; height:100%;" src="<?= base_url('assets/') ?>img/sekretaris.jpeg">
                             </div>
                             <div class="team-content">
                                 <h3 class="title">Indrahayu.S.Sos</h3>
@@ -56,7 +56,7 @@
                     <div class="col-md-3 col-sm-5">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="<?= base_url('assets/') ?>img/team/02.jpg">
+                                <img style="width:100%; height:100%;" src="<?= base_url('assets/') ?>img/team/02.jpg">
                             </div>
                             <div class="team-content">
                                 <h3 class="title">Fulidodo Zendrato</h3>
@@ -66,8 +66,8 @@
                     </div>
                     <div class="col-md-3 col-sm-5">
                         <div class="our-team">
-                            <div class="pic">
-                                <img src="<?= base_url('assets/') ?>img/team/03.jpg">
+                            <div class="">
+                                <img style="width :92%;" src="<?= base_url('assets/') ?>img/kasikesos.png">
                             </div>
                             <div class="team-content">
                                 <h3 class="title">Mayyendiyati</h3>
@@ -78,7 +78,7 @@
                     <div class="col-md-3 col-sm-5">
                         <div class="our-team">
                             <div class="pic">
-                                <img src="<?= base_url('assets/') ?>img/team/04.jpg">
+                                <img style="width:100%; height:100%;" src="<?= base_url('assets/') ?>img/team/04.jpg">
                             </div>
                             <div class="team-content">
                                 <h3 class="title">Nina Nelmayenti</h3>

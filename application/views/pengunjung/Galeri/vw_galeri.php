@@ -24,7 +24,7 @@
             </div>
         </div> -->
 
-        <div class="gallery-list row">
+        <!--<div class="gallery-list row">
             <?php
             foreach ($galeri as $gal) :
             ?>
@@ -44,7 +44,7 @@
             endforeach;
             ?>
 
-            <!-- <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
+             <div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
                 <div class="gallery-single fix">
                     <img src="<?= base_url('assets/') ?>uploads/gallery_img-03.jpg" class="img-responsive" alt="Image">
                     <div class="img-overlay">
@@ -78,8 +78,46 @@
                         <a href="<?= base_url('assets/') ?>uploads/gallery_img-06.jpg" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="flaticon-unlink"></i></a>
                     </div>
                 </div>
-            </div> -->
+            </div> 
+        </div>-->
+        <div class="container">
+                <?= $this->session->flashdata('notes'); ?>
+    <div  class="card shadow mb-4">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr style="font-weight: bold;background-color: gray; color:white;">
+                            <?php $i = 1; ?>
+                                <td>No</td>
+                                <td>Nama Kegiatan</td>
+                                <td>Jenis</td>
+                                <td>Tanggal</td>
+                                <td>Link Dokumentasi</td>
+                        </tr>
+                    </thead>
+                    
+                    <?php foreach ($galeri as $us) : ?>
+                    <tbody>
+
+                        <tr >
+                            <td style="color: black; "><?= $i ?></td>
+                            <td style="color: black; "><?= $us['gal_title'] ?></td>
+                            <td style="color: black; "><?= $us['gal_jns'] ?></td>
+                            <td style="color: black; "><?= $us['gal_date'] ?></td>
+                            <td ><a style="color: blue; font-weight:bold;" href="<?= $us['gal_url'] ?>">Akses</a></td>
+                        </tr>
+                        <?php $i++; ?>
+                    <?php endforeach; ?>
+                    </tbody>
+                </table>
+            </div>
         </div>
+        <!--News List Wrap End-->
+
+    </div>
+    <!--Content Wrap End-->
+</div>
         <div class="row">
             <div class="col-md-3 col-md-offset-5">
                 <?= $links; ?>

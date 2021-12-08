@@ -31,7 +31,7 @@
 
         <hr class="hr1">
 
-        <div data-scroll-index="1" class="row">
+      <!--  <div data-scroll-index="1" class="row">
             <section class="section services-section" id="services">
                 <div class="container">
                     <div class="row">
@@ -43,7 +43,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <!-- feaure box -->
+                        
                         <div class="col-sm-6 col-lg-4">
                             <div class="feature-box-1">
                                 <div class="icon">
@@ -55,8 +55,8 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- / -->
-                        <!-- feaure box -->
+                        
+                        
                         <div class="col-sm-6 col-lg-4">
                             <div class="feature-box-1">
                                 <div class="icon">
@@ -68,8 +68,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- / -->
-                        <!-- feaure box -->
+                        
                         <div class="col-sm-6 col-lg-4">
                             <div class="feature-box-1">
                                 <div class="icon">
@@ -81,8 +80,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- / -->
-                        <!-- feaure box -->
+                        
                         <div class="col-sm-6 col-lg-4">
                             <div class="feature-box-1">
                                 <div class="icon">
@@ -94,8 +92,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- / -->
-                        <!-- feaure box -->
+                        
                         <div class="col-sm-6 col-lg-4">
                             <div class="feature-box-1">
                                 <div class="icon">
@@ -107,8 +104,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- / -->
-                        <!-- feaure box -->
+                        
                         <div class="col-sm-6 col-lg-4">
                             <div class="feature-box-1">
                                 <div class="icon">
@@ -120,13 +116,13 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- / -->
+                     
                     </div>
                 </div>
             </section>
-        </div><!-- end row -->
-    </div><!-- end container -->
-</div><!-- end section -->
+        </div> -->
+    </div>
+</div>
 
 <div class="section nopad">
     <img src="<?= base_url('assets/') ?>uploads/" alt="" class="img-responsive">
