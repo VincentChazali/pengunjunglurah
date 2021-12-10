@@ -31,7 +31,7 @@
 
         <hr class="hr1">
 
-      <!--  <div data-scroll-index="1" class="row">
+       <div data-scroll-index="1" class="row">
             <section class="section services-section" id="services">
                 <div class="container">
                     <div class="row">
@@ -44,8 +44,8 @@
                     </div>
                     <div class="row">
                         
-                        <div class="col-sm-6 col-lg-4">
-                            <div class="feature-box-1">
+                        <div class="col-sm-6 col-lg-4" >
+                            <div class="feature-box-1" >
                                 <div class="icon">
                                     <i class="fa fa-calendar"></i>
                                 </div>
@@ -57,7 +57,7 @@
                         </div>
                         
                         
-                        <div class="col-sm-6 col-lg-4">
+                        <div class="col-sm-6 col-lg-4" >
                             <div class="feature-box-1">
                                 <div class="icon">
                                     <i class="fa fa-user"></i>
@@ -120,7 +120,7 @@
                     </div>
                 </div>
             </section>
-        </div> -->
+        </div> 
     </div>
 </div>
 

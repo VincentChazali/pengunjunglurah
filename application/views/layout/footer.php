@@ -33,3 +33,9 @@
 <!-- ALL PLUGINS -->
 <script src="<?= base_url('assets/') ?>js/custom.js"></script>
 <script src="<?= base_url('assets/') ?>js/jquery.vide.js"></script>
+<script src="<?= base_url('assets2/') ?>js/sb-admin-2.min.js"></script>
+<script src="<?= base_url('assets2/') ?>vendor/datatables/jquery.dataTables.min.js"></script>
+<script src="<?= base_url('assets2/') ?>vendor/datatables/dataTables.bootstrap4.min.js"></script>
+<script src="<?= base_url('assets2/') ?>vendor/chart.js/Chart.min.js"></script>
+    <!-- Page level custom scripts -->
+<script src="<?= base_url('assets2/') ?>js/demo/datatables-demo.js"></script>

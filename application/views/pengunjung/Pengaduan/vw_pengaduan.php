@@ -1,3 +1,11 @@
+<head>
+    <link href="<?php echo base_url('assets2/') ?>vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!-- Custom styles for this template-->
+    <link href="<?= base_url('assets2/') ?>vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+</head>
+
 <section class="section section-bg" id="call-to-action" style="background-image: url(assets/img/rumbai.jpeg)">
     <div class="container">
         <div class="row justify-content-center">
@@ -10,44 +18,44 @@
     </div>
 </section>
 </br>
-<div class="container">
-                <?= $this->session->flashdata('notes'); ?>
-    <div  class="card shadow mb-4">
-        <div class="card-body">
-            <div class="table-responsive">
-                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                    <thead>
-                        <tr style="font-weight: bold;background-color: gray; color:white;">
-                            <?php $i = 1; ?>
-                                <td>No</td>
-                                <td>Judul</td>
-                                <td>Isi</td>
-                                <td>Tanggapan</td>
-                        </tr>
-                    </thead>
-                    
-                    <?php foreach ($pengaduan as $us) : ?>
-                    <tbody>
+<div class="container-fluid">
+    <div class="feature-box-1">
+        <div class="row">
+            <?= $this->session->flashdata('notes'); ?>
+            <div class="card shadow mb-4">
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                            <thead style="font-weight: bold;">
+                                <tr style="font-weight: bold;background-color: gray; color:white;">
+                                    <?php $i = 1; ?>
+                                    <td>No</td>
+                                    <td>Judul</td>
+                                    <td>Isi</td>
+                                    <td>Tanggapan</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($pengaduan as $us) : ?>
+                                    <tr style="color: black; ">
+                                        <td><?= $i ?></td>
+                                        <td><?= $us['pgdn_judul'] ?></td>
+                                        <td><?= $us['pgdn_isi'] ?></td>
+                                        <td><?= $us['tanggapan'] ?></td>
 
-                        <tr style="color: black; ">
-                            <td><?= $i ?></td>
-                            <td><?= $us['pgdn_judul'] ?></td>
-                            <td><?= $us['pgdn_isi'] ?></td>
-                            <td><?= $us['tanggapan'] ?></td>
-
-                        </tr>
-                        <?php $i++; ?>
-                    <?php endforeach; ?>
-                    </tbody>
-                </table>
+                                    </tr>
+                                    <?php $i++; ?>
+                                <?php endforeach; ?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
+            <!--Content Wrap End-->
         </div>
-        <!--News List Wrap End-->
-
     </div>
-    <!--Content Wrap End-->
 </div>
-</div>
+
 
 <!-- <div id="donate" data-scroll-index="7" class="section db">
     <div class="container">
