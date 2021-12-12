@@ -10,7 +10,7 @@
     </div>
 </section>
 
-<div id="gallery" class="section wb">
+<!-- <div id="gallery" class="section wb">
     <div class="container">
         <!-- <div class="gallery-menu row">
             <div class="col-md-12">
@@ -24,7 +24,7 @@
             </div>
         </div> -->
 
-        <!--<div class="gallery-list row">
+<!--<div class="gallery-list row">
             <?php
             foreach ($galeri as $gal) :
             ?>
@@ -80,48 +80,37 @@
                 </div>
             </div> 
         </div>-->
-        <div class="container">
-                <?= $this->session->flashdata('notes'); ?>
-    <div  class="card shadow mb-4">
-        <div class="card-body">
-            <div class="table-responsive">
-                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                    <thead>
-                        <tr style="font-weight: bold;background-color: gray; color:white;">
-                            <?php $i = 1; ?>
-                                <td>No</td>
-                                <td>Nama Kegiatan</td>
-                                <td>Jenis</td>
-                                <td>Tanggal</td>
-                                <td>Link Dokumentasi</td>
-                        </tr>
-                    </thead>
-                    
-                    <?php foreach ($galeri as $us) : ?>
-                    <tbody>
 
-                        <tr >
-                            <td style="color: black; "><?= $i ?></td>
-                            <td style="color: black; "><?= $us['gal_title'] ?></td>
-                            <td style="color: black; "><?= $us['gal_jns'] ?></td>
-                            <td style="color: black; "><?= $us['gal_date'] ?></td>
-                            <td ><a style="color: blue; font-weight:bold;" href="<?= $us['gal_url'] ?>">Akses</a></td>
-                        </tr>
-                        <?php $i++; ?>
-                    <?php endforeach; ?>
-                    </tbody>
-                </table>
+
+
+<div id="media" data-scroll-index="5" class="section wb">
+    <div class="container">
+        <div class="container mt-4">
+            <div class="row">
+                <?php
+                foreach ($galeri as $us) :
+                ?>
+                    <div class="col-md-3 col-sm-5">
+                        <div class="our-team">
+                            <div class="pic">
+                                <img src="<?= base_url('assets/img/galeri/') . $us['gal_gambar'] ?>" width="300" height="300">
+                            </div>
+                            <div class="team-content">
+                                <h3 class="title"><?= $us['gal_title']; ?></h3>
+                                <span>Tanggal : <?= $us['gal_date']; ?></span>
+                                <p><?= $us['gal_jns']; ?></p>
+                            </div>
+                        </div>
+                    </div>
+                <?php
+                endforeach;
+                ?>
             </div>
         </div>
-        <!--News List Wrap End-->
-
     </div>
-    <!--Content Wrap End-->
-</div>
-        <div class="row">
-            <div class="col-md-3 col-md-offset-5">
-                <?= $links; ?>
-            </div>
+    <div class="row">
+        <div class="col-md-5 col-md-offset-7">
+            <?= $links; ?>
         </div>
     </div>
 </div>

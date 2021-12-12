@@ -30,7 +30,7 @@
                                     <div style="margin-top: -23%" class="kode_news_list_des">
                                         <h6> <a href="<?= base_url('Berita/detailberita/') . $brt['brt_id'] ?>"> <?= $brt['brt_judul']; ?> </a> </h6>
                                         <div class="kode_author"><?= $brt['brt_tgl']; ?></div>
-                                        <p><?= word_limiter($brt['brt_isi'], 30) ?></p>
+                                        <p><?= word_limiter($brt['brt_isi'], 30) ?> <a href="<?= base_url('Berita/detailberita/') . $brt['brt_id'] ?>"> Read More </a></p>
                                     </div>
                                 </div>
                             <?php

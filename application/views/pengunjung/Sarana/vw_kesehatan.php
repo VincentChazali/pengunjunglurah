@@ -21,8 +21,20 @@
                         <img class="img-responsive" src="<?= base_url('assets/img/sarana/') . $ksht['spr_gambar'] ?>" alt="">
                     </div>
                     <div class="team-info">
-                        <h3><?= $ksht['spr_name']; ?> </h3>
-                        <p><?= $ksht['spr_kondisi']; ?></p>
+                        <h3><?= $ksht['spr_name']; ?></h3>
+                        <p>Kondisi :</p>
+                        <?php
+                        if ($ksht['spr_kondisi'] == "Baik") {
+                        ?>
+                            <p style="color: green;"><?= $ksht['spr_kondisi'] ?></p>
+                        <?php
+                        } else {
+                        ?>
+                            <p style="color: red;"><?= $ksht['spr_kondisi'] ?></p>
+                        <?php
+                        }
+                        ?>
+                        <p>Alamat : </p>
                         <p><?= $ksht['spr_lokasi']; ?></p>
                     </div>
                     <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>

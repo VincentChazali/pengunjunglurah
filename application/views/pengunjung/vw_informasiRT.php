@@ -27,11 +27,11 @@
                                 <p class="post">RT&nbsp;<?= $r['no_rt']; ?></p>
                                 <p class="post"><?= $r['alamat']; ?></p>
                                 <p class="post">
-                                <?php
-                                        $thnawal= date_format(date_create($r['tgl_jabat']),"Y");
-                                        $thnakhir= date_format(date_create($r['tgl_akhir']),"Y");
-                                        $periode=$thnakhir-$thnawal;
-                                        echo $thnawal, " - ", $thnakhir;
+                                    <?php
+                                    $thnawal = date_format(date_create($r['tgl_jabat']), "Y");
+                                    $thnakhir = date_format(date_create($r['tgl_akhir']), "Y");
+                                    $periode = $thnakhir - $thnawal;
+                                    echo $thnawal, " - ", $thnakhir;
                                     ?>
                                 </p>
                             </div>
@@ -121,8 +121,8 @@
         </div>
     </div>
     <div class="row">
-                                <div class="col-md-5 col-md-offset-7">
-                                    <?= $links; ?>
-                                </div>
-                            </div>
+        <div class="col-md-5 col-md-offset-7">
+            <?= $links; ?>
+        </div>
+    </div>
 </div>

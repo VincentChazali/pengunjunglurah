@@ -13,7 +13,7 @@ class Agenda extends CI_Controller
         $jumlah_data = $this->ag->jumlah_data();
         $config["base_url"] = base_url() . 'Agenda/index';
         $config["total_rows"] = $jumlah_data;
-        $config["per_page"] = 10;
+        $config["per_page"] = 8;
         $from = $this->uri->segment(3);
 
         $config['full_tag_open'] = '<ul class="pagination pagination-lg"><li class="page-item">';
@@ -48,6 +48,14 @@ class Agenda extends CI_Controller
         $data['links'] = $this->pagination->create_links();
         $this->load->view('layout/header');
         $this->load->view('pengunjung/agenda/vw_agenda', $data);
+        $this->load->view('layout/footer');
+    }
+
+    public function detailagenda($id)
+    {
+        $data['agenda'] = $this->ag->getByIdB($id);
+        $this->load->view('layout/header');
+        $this->load->view('pengunjung/Agenda/vw_detail_agenda', $data);
         $this->load->view('layout/footer');
     }
 }

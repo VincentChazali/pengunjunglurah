@@ -23,7 +23,19 @@
                     </div>
                     <div class="team-info">
                         <h3><?= $sklh['spr_name']; ?></h3>
-                        <p><?= $sklh['spr_kondisi']; ?></p>
+                        <p>Kondisi :</p>
+                        <?php
+                        if ($sklh['spr_kondisi'] == "Baik") {
+                        ?>
+                            <p style="color: green;"><?= $sklh['spr_kondisi'] ?></p>
+                        <?php
+                        } else {
+                        ?>
+                            <p style="color: red;"><?= $sklh['spr_kondisi'] ?></p>
+                        <?php
+                        }
+                        ?>
+                        <p>Alamat : </p>
                         <p><?= $sklh['spr_lokasi']; ?></p>
                     </div>
                     <!-- <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p> -->
@@ -35,5 +47,3 @@
         ?>
     </div>
 </div>
-
-

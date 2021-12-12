@@ -18,14 +18,25 @@
             <div class="col-sm-4 col-xs-6 team-column col-md-3">
                 <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
                     <div class="team-img">
-                        <img class="img-responsive" src="<?= base_url('assets/img/sarana/') . $ibdah['spr_gambar'] ?>" alt="">
+                        <img class="img-responsive" src="<?= base_url('assets/img/sarana/') . $ibdah['spr_gambar'] ?>" alt="image">
                     </div>
                     <div class="team-info">
                         <h3><?= $ibdah['spr_name']; ?></h3>
-                        <p><?= $ibadah['spr_kondisi']; ?></p>
-                        <p><?= $ibadah['spr_lokasi']; ?></p>
+                        <p>Kondisi :</p>
+                        <?php
+                        if ($ibdah['spr_kondisi'] == "Baik") {
+                        ?>
+                            <p style="color: green;"><?= $ibdah['spr_kondisi'] ?></p>
+                        <?php
+                        } else {
+                        ?>
+                            <p style="color: red;"><?= $ibdah['spr_kondisi'] ?></p>
+                        <?php
+                        }
+                        ?>
+                        <p>Alamat : </p>
+                        <p><?= $ibdah['spr_lokasi']; ?></p>
                     </div>
-                    <p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater</p>
                 </div>
             </div>
         <?php

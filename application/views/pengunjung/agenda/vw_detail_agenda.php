@@ -9,23 +9,23 @@
 <section id="portofolio">
     <div class="container">
         <?php
-        foreach ($berita as $brt) :
+        foreach ($agenda as $ag) :
         ?>
             <div class="col-sm-4">
                 <div class="zoom-effect">
-                    <img class="img-responsive mx-auto d-block" src="<?= base_url('assets/img/berita/') . $brt['brt_gambar'] ?>">
+                    <img class="img-responsive mx-auto d-block" src="<?= base_url('assets/img/agenda/')  . 'default.png' ?>" width="200" height="200">
                 </div>
             </div>
             <div class="col-sm-12 wow fadeInRight">
-                <h3 class="column-title"><?= $brt['brt_judul']; ?></h3>
-                <span><?= $brt['brt_tgl']; ?></span>
-                <p><?= $brt['brt_isi'] ?></p>
+                <h3 class="column-title"><?= $ag['ag_name']; ?></h3>
+                <span><?= $ag['ag_date']; ?></span>
+                <p><?= $ag['ag_ket'] ?></p>
             </div>
         <?php
         endforeach;
         ?>
     </div>
     <div class="text-center">
-        <a class="btn btn-primary" href="<?= base_url('Berita') ?>">Kembali</a>
+        <a class="btn btn-primary" href="<?= base_url('Agenda') ?>">Kembali</a>
     </div>
 </section>

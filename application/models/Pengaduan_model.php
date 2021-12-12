@@ -14,6 +14,7 @@ class Pengaduan_model extends CI_Model
   public function get()
   {
     $this->db->from($this->table);
+    $this->db->where('status', '1');
     $this->db->order_by('pgdn_id', 'desc');
     $query = $this->db->get();
     return $query->result_array();
